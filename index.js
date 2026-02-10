@@ -5,7 +5,7 @@ const app = express();
 app.use(express.json());
 
 const TOKEN = process.env.BOT_TOKEN;
-const TELEGRAM_API = `https://api.telegram.org/bot${TOKEN}`;
+const TELEGRAM_API = `https://api.telegram.org/bot${8531451033:AAFO50gYQJZ2PnKNbeSgRdzLPJD3CUBQa5E}`;
 
 app.get("/", (req, res) => {
   res.send("Telegram bot is running!");
